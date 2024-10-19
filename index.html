@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/0141809aa9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="header" class="section">
+        <div class="container">
+            <nav id="navbar">
+                <a href="" class="logo"><span>K</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="resume.pdf" download>Resume</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1 id="typed-text">Hi, I'm <span>K</span>eyur.</h1>
+                <h2>~a full stack developer</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me-me.png" class="me2" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Software Engineer with a M.S. in Computer Science from San Francisco State
+                        University and a B.E. in Computer Engineering from Gujarat Technological University, India. I
+                        have a proven ability to quickly adapt to new technologies, with a solid background in modern
+                        software development practices, version control, issue tracking, and containerization.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>App Development</span><br>iOS Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>January 2024 - May 2024</span><br>Junior Software Engineer Intern<br>Krishna
+                                Engineering</li>
+                            <li><span>June 2023 - August 2023</span><br>Data Science Intern<br>Brainy Beam Technologies
+                                PVT. LTD.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August 2024 - Present</span><br>San Francisco State Univesity<br>GPA: 4.0</li>
+                            <li><span>August 2020 - June 2024</span><br>Gujarat Technological Univeristy<br>GPA: 3.84
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div id="services" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Programming Languages</h2>
+                    <p>JavaScript<br>C/C++<br>Java<br>Python<br>Swift</p>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>FrontEnd Technologies</h2>
+                    <p>React.js<br>Next.js<br>Bootstrap<br>jQuery<br>Tailwind CSS</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>BackEnd Technologies</h2>
+                    <p>Node.js<br>MongoDB<br>Express.js<br>OracleDB<br>MySQL<br>PostgreSQL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO -->
+    <div id="portfolio" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/hobooken.jpg" alt="">
+                    <div class="layer">
+                        <h3>hobooken</h3>
+                        <p>I developed a full-stack e-commerce web application using the MERN stack, designed to provide a seamless platform for buying and selling books online. The platform also integrates secure payment gateways, providing a smooth, real-world shopping experience for book lovers.</p>
+                        <a href="https://github.com/ksavalia21/hobooken"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/allAi.jpg" alt="">
+                    <div class="layer">
+                        <h3>allAi</h3>
+                        <p>I developed an innovative iOS app using SwiftUI that integrates both ChatGPT and Gemini APIs, allowing users to seamlessly access these powerful AI tools in one place.</p>
+                        <a href="https://github.com/ksavalia21/allAi"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/CribQuest.jpg" alt="">
+                    <div class="layer">
+                        <h3>CribQuest</h3>
+                        <p>I developed a dynamic full-stack web application that serves as a modern real estate platform. This platform provides a streamlined solution for buyers, sellers, and real estate agents alike, transforming the way people find their dream homes online.</p>
+                        <a href="https://github.com/ksavalia21/CribQuest"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <div id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><i class="fa-solid fa-paper-plane"></i>Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="mailto:savalia.keyur7225@gmail.com"><i class="fa-solid fa-envelope"></i>Mail</a><br>
+                        <a href="https://www.linkedin.com/in/keyursavalia" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i>LinkedIn</a><br>
+                        <a href="https://www.github.com/ksavalia21" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i>GitHub</a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2 dwnld">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
