@@ -34,7 +34,7 @@ const WORK: Work[] = [
   {
     company: "Flow Party Clone",
     position: "UI/UX",
-    link: "https://bloomapp.com",
+    link: "https://flowparty-clone.vercel.app",
     description:
       "Flow Party website clone created with Next JS and TypeScript.",
   },
