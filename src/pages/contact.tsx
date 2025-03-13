@@ -6,7 +6,7 @@ import {
   MailIcon,
 } from "../components/Icons";
 import AnimatedPage from "../components/PageWrapper";
-import { GITHUB, LINKEDIN} from "../utils/constants";
+import { GITHUB, LINKEDIN } from "../utils/constants";
 
 const SOCIAL_ITEMS = [
   {
