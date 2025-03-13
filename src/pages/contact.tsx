@@ -9,7 +9,6 @@ import AnimatedPage from "../components/PageWrapper";
 import { GITHUB, LINKEDIN} from "../utils/constants";
 
 const SOCIAL_ITEMS = [
-  
   {
     platform: "github",
     icon: <GitHubIcon width={30} height={30} className="fill-primary-300" />,
@@ -22,7 +21,6 @@ const SOCIAL_ITEMS = [
     link: LINKEDIN,
     handle: "@keyursavalia",
   },
-  
   {
     platform: "email",
     icon: <MailIcon width={30} height={30} />,
