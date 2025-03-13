@@ -7,6 +7,8 @@ const EMAIL = "savalia.keyur1091@gmail.com";
 const GITHUB = "https://github.com/ksavalia21";
 const LINKEDIN = "https://www.linkedin.com/in/keyursavalia/";
 
+const DISCORD_ID = "207204046115831809";
+
 type Work = {
   company: string;
   position: string;
@@ -77,6 +79,7 @@ export {
   EMAIL,
   GITHUB,
   LINKEDIN,
+  DISCORD_ID,
   WORK,
   fullTwConfig,
 };
