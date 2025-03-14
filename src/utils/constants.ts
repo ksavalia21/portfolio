@@ -18,9 +18,30 @@ type Work = {
 
 const WORK: Work[] = [
   {
-    company: "SupaDupa Clone",
+    company: "The Flow Party",
+    position: "UI/UX",
+    link: "https://flowparty-clone.vercel.app",
+    description:
+      "Flow Party website clone created with Next JS and TypeScript.",
+  },
+  {
+    company: "SupaDupa",
     position: "UI/UX",
     link: "https://supadupa-clone.vercel.app/en",
+    description:
+      "SupaDupa website clone created with Next.js, React.js, Typescript, TailwindCSS, Framer-Motion, Lenis and GSAP.",
+  },
+  {
+    company: "Fusion Flow",
+    position: "UI/UX",
+    link: "https://fusion-flow-rho.vercel.app/",
+    description:
+      "SupaDupa website clone created with Next.js, React.js, Typescript, TailwindCSS, Framer-Motion, Lenis and GSAP.",
+  },
+  {
+    company: "Kromin",
+    position: "UI/UX",
+    link: "https://kromin-clone.vercel.app/",
     description:
       "SupaDupa website clone created with Next.js, React.js, Typescript, TailwindCSS, Framer-Motion, Lenis and GSAP.",
   },
@@ -30,13 +51,6 @@ const WORK: Work[] = [
     link: "https://corsair-reimagined.vercel.app",
     description:
       "Corsair Reimagined is a modern web application built with React, Vite, and Firebase.",
-  },
-  {
-    company: "Flow Party Clone",
-    position: "UI/UX",
-    link: "https://flowparty-clone.vercel.app",
-    description:
-      "Flow Party website clone created with Next JS and TypeScript.",
   },
   {
     company: "Real-Time Chat Application",
