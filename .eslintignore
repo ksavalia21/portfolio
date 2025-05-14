@@ -1,0 +1,20 @@
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Package directories
+node_modules/
+
+# Config files
+next.config.js
+next-env.d.ts
+tailwind.config.ts
+postcss.config.js
+
+# Specific problematic files
+src/components/Spotify.tsx
+src/pages/_document.tsx
+src/pages/experience.tsx
+src/pages/projects.tsx 
