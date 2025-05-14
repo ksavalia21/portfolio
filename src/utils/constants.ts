@@ -124,7 +124,7 @@ const PROJECTS: Projects[] = [
     company: "Real-Time Chat Application",
     position: "Chat App",
     category: "fullstack",
-    technologies: ["Java","Socket.IO", "MongoDB", "Node.js", "Express"],
+    technologies: ["Java", "Socket.IO", "MongoDB", "Node.js", "Express"],
     link: "https://real-time-chat-app-ed1v.onrender.com",
     github: "https://github.com/ksavalia21/real-time-chat-app",
     description: "A real-time chat application built with Java, Node.js, Express, and Socket.IO, enabling users to join rooms, send messages, and see online users.",
