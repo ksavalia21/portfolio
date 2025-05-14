@@ -1,7 +1,7 @@
 import Head from "next/head";
 import AnimatedText from "../components/AnimatedText";
 import AnimatedPage from "../components/PageWrapper";
-import { WORK } from "../utils/constants";
+import { PROJECTS } from "../utils/constants";
 
 export default function Project() {
   return (
@@ -20,7 +20,7 @@ export default function Project() {
         <AnimatedText element="h1" text="Projects" />
       </div>
       <div className="flex flex-col gap-[100px]">
-        {WORK.map((project, index) => (
+        {PROJECTS.map((project, index) => (
           <div
             key={project.company}
             className="relative flex flex-col max-w-[700px]"

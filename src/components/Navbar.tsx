@@ -20,7 +20,7 @@ const TRANSITION = {
   duration: 0.25,
 };
 
-const LINKS = ["about", "work", "contact"];
+const LINKS = ["about", "experience", "projects", "contact"];
 
 function Navbar() {
   const router = useRouter();
