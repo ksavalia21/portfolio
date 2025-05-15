@@ -4,6 +4,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
   MailIcon,
+  ResumeIcon,
 } from "../components/Icons";
 import AnimatedPage from "../components/PageWrapper";
 import { GITHUB, LINKEDIN } from "../utils/constants";
@@ -24,8 +25,14 @@ const SOCIAL_ITEMS = [
   {
     platform: "email",
     icon: <MailIcon width={30} height={30} />,
-    link: "mailto:savalia.keyur1091@gmail.com",
-    handle: "savalia.keyur1091@gmail.com",
+    link: "mailto:contact@keyursavalia.com",
+    handle: "contact@keyursavalia.com",
+  },
+  {
+    platform: "resume",
+    icon: <ResumeIcon width={30} height={30} />,
+    link: "/KEYUR_SAVALIA_RESUME.pdf",
+    handle: "View Resume",
   },
 ];
 

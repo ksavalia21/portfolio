@@ -32,7 +32,7 @@ export default function About() {
       <br />
       <p>
         I'm currently looking for{" "}
-        <Link href="https://www.linkedin.com/in/keyursavalia" target="_blank">
+        <Link href="/KEYUR_SAVALIA_RESUME.pdf" target="_blank">
           summer internship opportunities...
         </Link>
       </p>
