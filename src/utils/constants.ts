@@ -38,23 +38,27 @@ const EXPERIENCES: Experience[] = [
     duration: "January 2024 – June 2024",
     logo: "/images/qrious_tech_team_llp_logo.png",
     description: [
-      "Engineered a scalable ETL pipeline utilizing Python and AWS Ecosystem with Terraform IaC to automate data ingestion from diverse on-premise and cloud sources into Snowflake, improving data processing efficiency by 20%.",
-      "Leveraged window functions, CTEs and multi-table joins in complex SQL queries to surface BI insights that drove $50K+ in revenue in Q2 2024.",
-      "Automated refactoring of 35+ React components with custom scripts and created 13 reusable UI components, yielding a 25% reduction in page load times and a 15% boost in user engagement.",
-      "Led migration from Thrift to gRPC/Protobuf, cutting inter-service latency by 10% and boosting responsiveness."
+      "Built a data pipeline using Python and AWS to automate data verification, improving data processing efficiency by 20%.",
+      "Used advanced SQL to generate analytics that informed strategic decisions that drove over $50K+ in Q2 2024 revenue.",
+      "Created GitHub Actions pipeline to run 200+ unit tests per push, reducing deployment risk through early bug detection.",
+      "Built jscodeshift automation to refactor 35+ React components, cutting bundle size and boosting performance by 25%.",
+      "Authored Jest + RTL suite raising coverage to 70% (legacy) and 85% (new features), cutting production defects by 40%.",
+      "Delivered scalable software across SDLC—design, implementation, testing, and peer reviews in rapid Agile environment."
     ]
   },
   {
-    company: "BRAINYBEAM TECHNOLOGIES PVT. LTD.",
+    company: "QRIOUS TECH TEAM LLP",
     location: "Ahmedabad, India",
-    position: "Product Design Intern",
+    position: "Software Engineer Intern",
     duration: "June 2023 – August 2023",
-    logo: "/images/brainybeam_logo.jpeg",
+    logo: "/images/qrious_tech_team_llp_logo.png",
     description: [
-      "Conducted 25+ user research sessions to identify key pain points and areas of satisfaction, subsequently developing new designs based on this feedback and presenting the rationales to stakeholders, which directly contributed to securing a $15K brand deal.",
-      "Led end-to-end product design and delivery for the online identity of the client including content strategy, responsive website, brand elements and marketing collateral from the ground up.",
-      "Shipped a family engagement app for iOS & Android, designed to boost family participation in senior loved ones' daily activities; a recent survey demonstrated a significant 70% increase in family communication.",
-      "Worked with a global team for localization considerations in the app (language, low data etc.) and supported it through rollout in Abu Dhabi, Singapore and Sri Lanka."
+      "Applied basic data structures and algorithms in Python to optimize search functionality, reducing lookup time by 30%.",
+      "Consumed RESTful APIs with TS to fetch and display dynamic data, enhancing user interface interactivity and features.",
+      "Integrated frontend app with backend APIs using fetch() and axios, handling asynchronous data operations effectively.",
+      "Developed pixel-perfect UI components from Figma mockups using React and Tailwind, ensuring cross-browser support.",
+      "Identified and resolved 20+ front-end bugs by debugging TypeScript and CSS, improving application stability and UX.",
+      "Collaborated using Git on shared codebase, managing branches, pull requests, and code reviews to ensure team alignment."
     ]
   }
 ];
