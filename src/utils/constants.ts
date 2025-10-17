@@ -12,7 +12,7 @@ const DISCORD_ID = "207204046115831809";
 type Projects = {
   company: string;
   position: string;
-  category: "fullstack" | "uiux" | "backend" | "mobile" | "other";
+  category: "mobile" | "fullstack" | "uiux" | "backend" | "other";
   technologies: string[];
   github?: string;
   link?: string;
@@ -38,12 +38,11 @@ const EXPERIENCES: Experience[] = [
     duration: "January 2024 – June 2024",
     logo: "/images/qrious_tech_team_llp_logo.png",
     description: [
-      "Built a data pipeline using Python and AWS to automate data verification, improving data processing efficiency by 20%.",
-      "Used advanced SQL to generate analytics that informed strategic decisions that drove over $50K+ in Q2 2024 revenue.",
-      "Created GitHub Actions pipeline to run 200+ unit tests per push, reducing deployment risk through early bug detection.",
-      "Built jscodeshift automation to refactor 35+ React components, cutting bundle size and boosting performance by 25%.",
-      "Authored Jest + RTL suite raising coverage to 70% (legacy) and 85% (new features), cutting production defects by 40%.",
-      "Delivered scalable software across SDLC—design, implementation, testing, and peer reviews in rapid Agile environment."
+      "Migrated legacy Objective-C modules to Swift, increasing code usability/maintainability by 70%.",
+      "Architected reusable modules & internal frameworks with CocoaPods",
+      "Optimized RESTful API calls, cutting server response times by 40%.",
+      "Applied SOLID and TDD, reducing defects by 34%.",
+      "Drove code reviews, raising code quality across the team."
     ]
   },
   {
@@ -53,12 +52,11 @@ const EXPERIENCES: Experience[] = [
     duration: "June 2023 – August 2023",
     logo: "/images/qrious_tech_team_llp_logo.png",
     description: [
-      "Applied basic data structures and algorithms in Python to optimize search functionality, reducing lookup time by 30%.",
-      "Consumed RESTful APIs with TS to fetch and display dynamic data, enhancing user interface interactivity and features.",
-      "Integrated frontend app with backend APIs using fetch() and axios, handling asynchronous data operations effectively.",
-      "Developed pixel-perfect UI components from Figma mockups using React and Tailwind, ensuring cross-browser support.",
-      "Identified and resolved 20+ front-end bugs by debugging TypeScript and CSS, improving application stability and UX.",
-      "Collaborated using Git on shared codebase, managing branches, pull requests, and code reviews to ensure team alignment."
+      "Implemented MVVM with Core Data, improving maintainability and cutting bug discovery-to-resolution time by 25%.",
+      "Partnered closely with UX/UI to address feedback, raising user satisfaction by 20% and reducing complaints by 30%.",
+      "Used Xcode to diagnose and fix issues, boosting app stability by 50% and performance by 32%.",
+      "Built responsive interfaces with Auto Layout, ensuring consistent layouts across iPhone and iPad.",
+      "Collaborated via Git (branching/PRs), reducing merge conflicts by 30%."
     ]
   }
 ];
@@ -133,6 +131,24 @@ const PROJECTS: Projects[] = [
     github: "https://github.com/ksavalia21/real-time-chat-app",
     description: "A real-time chat application built with Java, Node.js, Express, and Socket.IO, enabling users to join rooms, send messages, and see online users.",
     longDescription: "A full-featured chat application with real-time messaging, private rooms, user presence indicators, and message persistence using MongoDB."
+  },
+  {
+    company: "SplitPro",
+    position: "Divide and Split Expenses",
+    category: "mobile",
+    technologies: ["Swift", "FireBase", "SwiftUI"],
+    github: "https://github.com/ksavalia21/SplitPro---Divide-Expenses",
+    description: "An easy way to split money among friends and family.",
+    longDescription: "SplitPro is a modern iOS expense-sharing application built with SwiftUI and Firebase. It enables users to easily track shared expenses with friends and groups, calculate balances, and settle debts efficiently."
+  },
+  {
+    company: "Mood Tracker App",
+    position: "Mood Tracker",
+    category: "mobile",
+    technologies: ["SwiftUI", "SwiftCharts", "UserDefaults"],
+    github: "https://github.com/ksavalia21/moodTracker",
+    description: "A simple yet effective iOS app designed to help users track and reflect on their daily moods.",
+    longDescription: "A minimalist iOS app built using SwiftUI, designed to help users track their daily moods, jot down quick notes, and visualize mood trends over time. This app is perfect for self-reflection and understanding your emotional patterns."
   }
 ];
 

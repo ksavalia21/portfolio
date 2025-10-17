@@ -6,6 +6,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Project() {
+  const mobileProjects = PROJECTS.filter(p => p.category === "mobile");
   const fullstackProjects = PROJECTS.filter(p => p.category === "fullstack");
   const uiuxProjects = PROJECTS.filter(p => p.category === "uiux");
   const otherProjects = PROJECTS.filter(p => 
@@ -109,6 +110,9 @@ export default function Project() {
       <div className="title__wrapper mb-8">
         <AnimatedText element="h1" text="Projects" />
       </div>
+
+      {mobileProjects.length > 0 && 
+        renderProjects(mobileProjects, "iOS Development")}
       
       {fullstackProjects.length > 0 && 
         renderProjects(fullstackProjects, "Full-Stack Development")}
