@@ -32,31 +32,28 @@ type Experience = {
 
 const EXPERIENCES: Experience[] = [
   {
-    company: "QRIOUS TECH TEAM LLP",
-    location: "Ahmedabad, India",
-    position: "Software Engineer Intern",
-    duration: "January 2024 – June 2024",
-    logo: "/images/qrious_tech_team_llp_logo.png",
+    company: "San Francisco State University",
+    location: "San Francisco, CA",
+    position: "Graduate Researcher - Full Stack R&D Engineer",
+    duration: "August 2025 – Present",
+    logo: "/images/sfsu_logo.png",
     description: [
-      "Migrated legacy Objective-C modules to Swift, increasing code usability/maintainability by 70%.",
-      "Architected reusable modules & internal frameworks with CocoaPods",
-      "Optimized RESTful API calls, cutting server response times by 40%.",
-      "Applied SOLID and TDD, reducing defects by 34%.",
-      "Drove code reviews, raising code quality across the team."
+      "Architected and deployed a scalable microservices-based document retrieval system utilized by 200+ researchers, serving 47,000 academic papers and maintaining a low P95 query latency of 1.8 seconds.",
+      "Engineered a full-stack RAG pipeline using Google Gemini AI and vector embeddings, dramatically improving retrieval precision from 62% to 89% through algorithmic optimization and ChromaDB.",
+      "Optimized cloud infrastructure through asynchronous processing and connection pooling, reducing Postgres query time by 40% and enabling the system to handle 3x traffic spikes without performance degradation."
     ]
   },
   {
     company: "QRIOUS TECH TEAM LLP",
     location: "Ahmedabad, India",
     position: "Software Engineer Intern",
-    duration: "June 2023 – August 2023",
+    duration: "January 2024 – June 2024",
     logo: "/images/qrious_tech_team_llp_logo.png",
     description: [
-      "Implemented MVVM with Core Data, improving maintainability and cutting bug discovery-to-resolution time by 25%.",
-      "Partnered closely with UX/UI to address feedback, raising user satisfaction by 20% and reducing complaints by 30%.",
-      "Used Xcode to diagnose and fix issues, boosting app stability by 50% and performance by 32%.",
-      "Built responsive interfaces with Auto Layout, ensuring consistent layouts across iPhone and iPad.",
-      "Collaborated via Git (branching/PRs), reducing merge conflicts by 30%."
+      "Designed and implemented 35+ RESTful API endpoints (Python/FastAPI) with robust features like JWT authentication and rate limiting, supporting 50,000+ daily requests with 99.8% uptime.",
+      "Delivered a serverless ETL pipeline using AWS Lambda and S3 that automated verification of 80,000+ user records daily, eliminating 40 hrs/week of manual work and reinforcing data integrity.",
+      "Collaborated with cross-functional teams of 8 engineers to rapidly troubleshoot production issues, reducing mean time to resolution (MTTR) from 4 hours to 45 minutes through improved monitoring and alerting.",
+      "Optimized the CI/CD pipeline with parallelization and caching, decreasing build time from 15 minutes to 3 minutes and facilitating 12+ daily deployments across environments, demonstrating ability to ship fast."
     ]
   }
 ];

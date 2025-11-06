@@ -6,12 +6,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Project() {
-  const mobileProjects = PROJECTS.filter(p => p.category === "mobile");
   const fullstackProjects = PROJECTS.filter(p => p.category === "fullstack");
+  const mobileProjects = PROJECTS.filter(p => p.category === "mobile");
   const uiuxProjects = PROJECTS.filter(p => p.category === "uiux");
-  const otherProjects = PROJECTS.filter(p => 
-    p.category !== "fullstack" && p.category !== "uiux"
-  );
 
   const renderProjects = (projects: typeof PROJECTS, title: string) => (
     <div className="my-12">
@@ -111,17 +108,14 @@ export default function Project() {
         <AnimatedText element="h1" text="Projects" />
       </div>
 
+      {fullstackProjects.length > 0 && 
+        renderProjects(fullstackProjects, "Full-Stack Development")}
+
       {mobileProjects.length > 0 && 
         renderProjects(mobileProjects, "iOS Development")}
       
-      {fullstackProjects.length > 0 && 
-        renderProjects(fullstackProjects, "Full-Stack Development")}
-      
       {uiuxProjects.length > 0 && 
         renderProjects(uiuxProjects, "UI/UX Design Projects")}
-      
-      {otherProjects.length > 0 && 
-        renderProjects(otherProjects, "Other Projects")}
     </AnimatedPage>
   );
 } 

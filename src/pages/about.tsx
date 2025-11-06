@@ -22,7 +22,7 @@ export default function About() {
       </div>
       <p>
         hey, i'm keyur, a 22 year old software engineer and designer based in
-        the united states. i strive to build unique and polished iOS applications
+        the united states. i strive to build user-centered and scalable web applications
         for both consumer and business ends. i love music, cinema, and
         coding!
       </p>
@@ -31,7 +31,7 @@ export default function About() {
       <p>
         I'm currently looking for{" "}
         <Link href="/KEYUR_SAVALIA_RESUME.pdf" target="_blank">
-          2026 summer internship opportunities...
+          2026 new grad software engineer opportunities...
         </Link>
       </p>
     </AnimatedPage>
